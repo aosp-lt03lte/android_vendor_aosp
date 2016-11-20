@@ -1,0 +1,12 @@
+on post-fs-data
+
+  # Run sysinit
+    start sysinit
+
+on boot
+
+# sysinit (/system/etc/init.d)
+service sysinit /system/bin/sysinit
+    user root
+    oneshot
+    disabled
