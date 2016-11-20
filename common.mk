@@ -19,3 +19,5 @@ PRODUCT_COPY_FILES += \
     
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
+    
+-include frameworks/base/data/sounds/AudioPackage2.mk
