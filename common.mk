@@ -21,7 +21,14 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 PRODUCT_PACKAGES += \
-    busybox
+    busybox \
+    mkfs.ntfs \
+    fsck.ntfs \
+    mount.ntfs \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat
+   
   
 -include frameworks/base/data/sounds/OriginalAudio.mk
 
